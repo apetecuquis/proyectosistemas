@@ -1,6 +1,6 @@
 <?php
 require_once("./php/myDBC.php");
-if(isset($_SESSION['session']))
+if(isset($_SESSIONES['session']))
 {
 	header("location:principal.php");
 	exit;
@@ -17,7 +17,7 @@ if(isset($_SESSION['session']))
 <body>
 	
 	<div id="registrar">
-          	<a href="./php/registro.php"</a>Registrarse</a>
+          	<a href="./php/registro.php"</a>Registrar</a>
     </div> <!-- fin opcion-->
     
 	<div id="envoltura">
@@ -32,10 +32,10 @@ if(isset($_SESSION['session']))
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
-					<p><label >Usuario:</label></p>
+					<p><label >Usuarios:</label></p>
 						<input name="cliente" type="text" id="cliente" placeholder="Ingresa cliente" autofocus="" required=""></p>
 					
-					<p><label>Contraseña:</label></p>
+					<p><label>Contraseñas:</label></p>
 						<input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password" required=""></p>
 					
 					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
