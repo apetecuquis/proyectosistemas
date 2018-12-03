@@ -9,7 +9,7 @@ if(isset($_SESSIONES['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>INFTEC</title>
+	<title>SHOPTHEM</title>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
@@ -24,7 +24,7 @@ if(isset($_SESSIONES['session']))
 		<div id="contenedores">
 	
 			<div id="cabecera" >
-				<img src="./css/images/image.jpg">
+				<img src="./css/images/ventajas-logosea.jpg">
 			</div>
 	
 			<div id="cuerpo">
