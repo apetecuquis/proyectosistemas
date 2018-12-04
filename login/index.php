@@ -9,7 +9,7 @@ if(isset($_SESSIONES['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>SHOPTHEM</title>
+	<title>TELLMAX</title>
 	<meta charset="utf-8">
 	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
