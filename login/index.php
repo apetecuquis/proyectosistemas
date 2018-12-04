@@ -20,14 +20,14 @@ if(isset($_SESSIONES['session']))
           	<a href="./php/registro.php"</a>Registrar</a>
     </div> <!-- fin opcion-->
     
-	<div id="envoltura">
-		<div id="contenedor">
+	<div id="envolturas">
+		<div id="contenedores">
 	
-			<div id="cabecera" >
+			<div id="cabeceras" >
 				<img src="./css/images/ventajas-logosea.jpg">
 			</div>
 	
-			<div id="cuerpo">
+			<div id="cuerpos">
 				<form id="form-login" action="./php/login.php" method="post" autocomplete="off">
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
